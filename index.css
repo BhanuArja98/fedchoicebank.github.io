@@ -1,0 +1,100 @@
+body{
+	background-color:;
+}
+.head{
+	background:black;
+    padding:12px;
+	padding-left:5%;
+	color:white;
+	text-align:top;
+	padding-bottom:0px;
+	
+}
+.navbar {
+  overflow: hidden;
+  background-color:yellow; 
+  
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: gray;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: gray;
+  width: 100%;
+  z-index: 1;
+}
+.subnav-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+.footer{
+	background-color:black;
+}
+.table{
+	
+	font-family:lato;
+	border-collapse:collapse;
+	width:100%;
+	margin-top:80px;
+	text-align:left;
+}
+	
+ th {
+	 padding-top:3%;
+	 padding-left:5%;
+	 font-size:20px;
+	text-align:left;
+	color:yellow;
+}
+td{
+	padding-top:1%;
+	padding-left:5%;
+	color:white;
+	text-align:left;
+
+}
+.footer1{
+	background-color:gray;
+	padding-left:5%;
+	color:black;
+}
